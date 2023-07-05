@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    font-family: 'Signika Negative', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px -4px;
+    padding: 15px 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+h1 {
+    text-align: start;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #575761;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 0 10px -4px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.BtnDiv {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.Narx {
+    background: #8989f3;
+}
+
+.Narx:hover {
+    box-shadow: 0 0 20px -4px #8989f3;
+}
+
+.Del {
+    background: #ff0101;
+}
+
+.Del:hover {
+    box-shadow: 0 0 20px -4px #ff0101;
+}
+
+#narx2 {
+    width: 600px;
+    height: 300px;
+    background: #575761;
+    position: absolute;
+    margin-top: -550px;
+    border: transparent;
+    margin-left: 250px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: start;
+    padding: 40px 20px;
+    letter-spacing: 2px;
+}
+
+.divBtn2{
+    display: flex;
+    justify-content: start;
+    gap: 250px;
+    margin-top: 130px;
+}
+
+.btnClace{
+    background: #8a8a8b;
+    box-shadow: 0 0 0;
+}
+
+.btnClace:hover{
+    box-shadow: 0 0 20px -6px #fff;
+    transition: 0.10s ;
+}
+
+.btnDel1{
+    background: #ff0101;
+    box-shadow: 0 0 0;
+}
+
+.btnDel1:hover{
+    box-shadow: 0 0 20px -3px #ff0101;
+    transition: 0.10s ;
+}
+
+.hidden{
+    display: none;
+    background: #575761;
+}
+
+#narx2{
+    background: #575761;
+    /* display: none; */
+}
